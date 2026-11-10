@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Alauddin the rooftop thief with his falcon and the brass lamp">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060824"/>
+      <stop offset=".6" stop-color="#2a1a5a"/>
+      <stop offset="1" stop-color="#a8406a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff9a3a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="240" fill="url(#sky)"/>
+  <g fill="#fff">
+    <rect x="22" y="18" width="2" height="2"/><rect x="70" y="40" width="1" height="1"/><rect x="120" y="14" width="2" height="2"/>
+    <rect x="160" y="52" width="1" height="1"/><rect x="200" y="22" width="1" height="1"/><rect x="40" y="70" width="1" height="1"/>
+    <rect x="300" y="90" width="2" height="2"/><rect x="180" y="86" width="1" height="1"/>
+  </g>
+  <circle cx="262" cy="46" r="22" fill="#fff4d8"/>
+  <circle cx="270" cy="40" r="19" fill="#0a0c2c"/>
+  <g fill="#120a28">
+    <rect x="0" y="150" width="40" height="90"/><path d="M2 150 Q2 128 20 116 Q38 128 38 150Z"/>
+    <rect x="50" y="170" width="34" height="70"/>
+    <rect x="200" y="140" width="46" height="100"/><path d="M204 140 Q204 114 223 100 Q242 114 242 140Z"/>
+    <rect x="250" y="96" width="6" height="144"/><path d="M248 96 Q253 84 258 96Z"/>
+    <rect x="262" y="160" width="58" height="80"/>
+  </g>
+  <g fill="#ffc86e" opacity=".85">
+    <rect x="12" y="170" width="3" height="4"/><rect x="62" y="186" width="3" height="4"/><rect x="214" y="160" width="3" height="5"/><rect x="280" y="180" width="3" height="4"/>
+  </g>
+  <rect x="70" y="200" width="150" height="40" fill="#1c1030"/>
+  <rect x="70" y="200" width="150" height="3" fill="#2a1a44"/>
+  <!-- Alauddin -->
+  <g transform="translate(118 200) scale(3)">
+    <rect x="-4.6" y="-9" width="4" height="9" fill="#2e4f9a"/><rect x=".6" y="-9" width="4" height="9" fill="#2e4f9a"/>
+    <rect x="-5" y="-2" width="5" height="2" fill="#7a2e14"/><rect x=".4" y="-2" width="5" height="2" fill="#7a2e14"/>
+    <rect x="-4.6" y="-17.2" width="9.2" height="9.4" fill="#f3ead6"/>
+    <rect x="-4.6" y="-17.2" width="3.6" height="9" fill="#b8283a"/><rect x="1.6" y="-17.2" width="3" height="9" fill="#b8283a"/>
+    <rect x="-5" y="-10.2" width="10" height="2.4" fill="#e8742f"/>
+    <rect x="-3.2" y="-23.8" width="7.2" height="6.8" fill="#d39463"/>
+    <rect x="1.4" y="-21.8" width="2.4" height="1.8" fill="#fff"/><rect x="2.6" y="-21.8" width="1.2" height="1.8" fill="#1b0f08"/>
+    <rect x="-4.4" y="-27" width="9" height="4.2" fill="#1aa596"/><rect x="-3.4" y="-28.2" width="7" height="1.6" fill="#1aa596"/>
+    <circle cx="3.2" cy="-25.2" r="1.4" fill="#f0c040"/>
+    <rect x="-9" y="-26" width="4.6" height="2.2" fill="#1aa596"/><rect x="-11.6" y="-24" width="3" height="2" fill="#0f7268"/>
+    <path d="M7 -15 Q16 -18 22 -24 Q16 -12 7 -12Z" fill="#e6ecf4"/>
+    <rect x="4" y="-15.6" width="4" height="2" fill="#d39463"/>
+  </g>
+  <!-- Saqr -->
+  <g transform="translate(176 118) scale(2.2)">
+    <circle cx="0" cy="-6" r="6.2" fill="#a8743a"/><circle cx="1" cy="-5" r="4.4" fill="#f4e2c0"/>
+    <circle cx="2" cy="-12.5" r="4.8" fill="#a8743a"/>
+    <circle cx="3.9" cy="-13" r="2" fill="#fff"/><circle cx="4.4" cy="-12.9" r="1.15" fill="#1a0a00"/>
+    <path d="M6 -12.4 L9.4 -11 L6.8 -9.8Z" fill="#ffc23a"/>
+    <path d="M-2 -8 L-11 -15 L-6 -6Z" fill="#8a5424"/>
+    <rect x="-2.2" y="-9.6" width="7.4" height="1.7" fill="#1aa596"/>
+  </g>
+  <!-- Brass lamp -->
+  <circle cx="256" cy="196" r="34" fill="url(#glow)"/>
+  <g transform="translate(250 204) scale(3.4)">
+    <ellipse cx="0" cy="1" rx="5" ry="2.6" fill="#e0a820"/>
+    <path d="M4 0 L9 -3 L8 -1 L4 2Z" fill="#e0a820"/>
+    <rect x="-1" y="-2" width="2" height="2" fill="#e0a820"/>
+    <rect x="-3" y="3" width="6" height="1" fill="#a07010"/>
+    <path d="M-5 -2 A2 2 0 0 0 -5 2" stroke="#e0a820" stroke-width="1" fill="none"/>
+  </g>
+  <g fill="#5ff5e0" opacity=".8">
+    <circle cx="282" cy="186" r="3"/><circle cx="288" cy="174" r="2.4"/><circle cx="292" cy="162" r="1.8"/>
+  </g>
+  <text x="160" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#ffd23a" stroke="#5a1a0a" stroke-width=".8">ALAUDDIN</text>
+</svg>

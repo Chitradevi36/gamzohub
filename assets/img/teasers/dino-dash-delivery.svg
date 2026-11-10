@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="A T-rex courier running with a parcel past a volcano">
+  <defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9a5a"/><stop offset="1" stop-color="#ffe0a0"/></linearGradient></defs>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-linecap="round">
+    <rect width="320" height="240" fill="url(#s)" stroke="none"/>
+    <path d="M200 170 L240 70 L262 70 L300 170Z" fill="#8a5a3a" stroke-width="3"/>
+    <path d="M240 70 Q251 52 262 70Z" fill="#ff5a1f" stroke-width="3"/>
+    <g fill="#ff7a1a" stroke="none" opacity=".85"><circle cx="246" cy="44" r="7"/><circle cx="258" cy="30" r="5"/><circle cx="236" cy="26" r="4"/></g>
+    <path d="M30 40 l40 22" stroke="#ff5a1f" stroke-width="6"/><circle cx="74" cy="64" r="8" fill="#ffd23f" stroke-width="3"/>
+    <rect x="0" y="170" width="320" height="70" fill="#c98a4b" stroke-width="3"/>
+    <path d="M0 176 H320" stroke="#e0a35a" stroke-width="6"/>
+    <g transform="translate(120 170)">
+      <path d="M-50 -40 Q-60 -60 -80 -56 Q-60 -46 -52 -30Z" fill="#3ddc84" stroke-width="3"/>
+      <ellipse cx="-20" cy="-42" rx="40" ry="24" fill="#3ddc84" stroke-width="3"/>
+      <path d="M-28 -22 L-34 0 M-6 -22 L2 0" stroke-width="9"/><path d="M-28 -22 L-34 0 M-6 -22 L2 0" stroke="#2bb673" stroke-width="5"/>
+      <path d="M8 -54 Q14 -90 44 -88 Q66 -86 66 -70 Q66 -58 48 -58 L22 -54Z" fill="#3ddc84" stroke-width="3"/>
+      <path d="M48 -62 L62 -62" stroke-width="2.5"/>
+      <circle cx="40" cy="-76" r="5" fill="#fff" stroke-width="2"/><circle cx="42" cy="-76" r="2" fill="#1b1530" stroke="none"/>
+      <path d="M10 -50 L22 -40" stroke-width="5"/>
+      <rect x="-30" y="-82" width="34" height="26" rx="3" fill="#c8813a" stroke-width="3"/>
+      <path d="M-30 -70 H4 M-13 -82 V-56" stroke="#ffe14d" stroke-width="3"/>
+      <path d="M22 -86 L20 -100 L34 -96Z" fill="#e8322f" stroke-width="2.5"/>
+    </g>
+    <g stroke="#fff" stroke-width="4" opacity=".8"><path d="M20 120 H50"/><path d="M14 138 H40"/><path d="M26 156 H54"/></g>
+  </g>
+</svg>

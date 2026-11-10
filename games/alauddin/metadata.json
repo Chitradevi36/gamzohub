@@ -1,0 +1,11 @@
+{
+  "slug": "alauddin",
+  "title": "Alauddin",
+  "subtitle": "Alauddin and the Brass Lamp",
+  "category": "adventure",
+  "description": "An Arabian Nights platformer: run the rooftops as Alauddin, free Nazim the djinn and defeat the Serpent Vizier across 10 levels.",
+  "controls": ["Arrow keys / WASD", "Space / Z jump", "J / X sword", "K / C apple", "L / Shift roll", "E djinn", "Touch buttons on mobile"],
+  "thumbnail": "thumbnail.svg",
+  "entry": "game.html",
+  "embed": "iframe"
+}

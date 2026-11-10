@@ -1,0 +1,11 @@
+{
+  "slug": "max-rampage",
+  "title": "Max Rampage",
+  "subtitle": "Suburban Stunt Legend",
+  "category": "action",
+  "description": "A comic stunt game: flip, spin and grab on skateboards, bikes and go-karts across 9 suburban episodes, then beat Chad Stuntly.",
+  "controls": ["Left / Right speed", "Space charge + jump", "Z spin", "X flip", "C grab", "Up / Down balance", "Touch buttons on mobile"],
+  "thumbnail": "thumbnail.svg",
+  "entry": "game.html",
+  "embed": "iframe"
+}

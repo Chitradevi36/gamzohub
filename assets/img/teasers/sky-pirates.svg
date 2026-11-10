@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="A pirate airship sailing toward a floating treasure island">
+  <defs><linearGradient id="k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22c3e3"/><stop offset="1" stop-color="#ffd9a0"/></linearGradient></defs>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-linecap="round">
+    <rect width="320" height="240" fill="url(#k)" stroke="none"/>
+    <g fill="#fff" stroke="none" opacity=".9"><ellipse cx="60" cy="200" rx="60" ry="18"/><ellipse cx="270" cy="210" rx="70" ry="20"/><ellipse cx="150" cy="226" rx="80" ry="16"/></g>
+    <path d="M220 70 H300 L286 96 Q260 116 234 96Z" fill="#8d5524" stroke-width="3"/>
+    <rect x="220" y="62" width="80" height="10" fill="#3ddc84" stroke-width="3"/>
+    <path d="M252 62 V40 M252 40 l-14 10 h14" fill="#ffd23f" stroke-width="3"/>
+    <rect x="268" y="48" width="16" height="14" fill="#ffd23f" stroke-width="2.5"/>
+    <ellipse cx="120" cy="70" rx="80" ry="34" fill="#e8322f" stroke-width="4"/>
+    <path d="M60 70 H180 M80 46 Q120 60 160 46 M80 94 Q120 80 160 94" fill="none" stroke="#b0203a" stroke-width="3"/>
+    <path d="M70 104 l14 32 M170 104 l-14 32" stroke-width="3"/>
+    <path d="M60 136 H180 L168 166 Q120 178 72 166Z" fill="#8d5524" stroke-width="4"/>
+    <path d="M60 136 H180" stroke="#ffd23f" stroke-width="3"/>
+    <circle cx="96" cy="152" r="5" fill="#2a2a35" stroke-width="2"/><circle cx="144" cy="152" r="5" fill="#2a2a35" stroke-width="2"/>
+    <path d="M40 66 l-20 -6 l20 -6Z" fill="#ffd23f" stroke-width="2.5"/>
+    <path d="M150 12 V34" stroke-width="3"/><path d="M150 12 h26 l-6 6 l6 6 h-26" fill="#1b1530" stroke-width="2"/>
+    <circle cx="160" cy="18" r="3" fill="#fff" stroke="none"/>
+    <g stroke="#fff" stroke-width="4" opacity=".8"><path d="M200 140 H230"/><path d="M196 156 H218"/></g>
+  </g>
+</svg>
