@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-label="Nazim, a cyan-glowing djinn with gold horns, rising in a wisp of smoke">
+  <circle cx="70" cy="70" r="70" fill="#2a1450"/>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-width="3">
+    <path d="M40 130 Q50 100 38 80 Q70 92 70 118 Q70 92 102 80 Q90 100 100 130Z" fill="#3fd8c8" opacity=".55" stroke="none"/>
+    <circle cx="70" cy="74" r="34" fill="#3fd8c8" opacity=".4" stroke="none"/>
+    <circle cx="70" cy="74" r="26" fill="#5ff5e0"/>
+    <path d="M44 56 L34 36 L52 48Z" fill="#ffd23a"/><path d="M96 56 L106 36 L88 48Z" fill="#ffd23a"/>
+    <ellipse cx="60" cy="74" rx="6" ry="7" fill="#0a2a24"/><ellipse cx="82" cy="74" rx="6" ry="7" fill="#0a2a24"/>
+    <path d="M58 92 Q70 100 82 92" fill="none" stroke-width="3"/>
+    <path d="M70 100 Q58 108 60 118" fill="none" stroke="#3fd8c8" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-label="Saqr, a fluffy brown falcon chick with a teal collar">
+  <circle cx="70" cy="70" r="70" fill="#2a5a7a"/>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-width="3">
+    <path d="M28 86 L10 70 L22 94Z" fill="#8a5424"/><path d="M112 86 L130 70 L118 94Z" fill="#8a5424"/>
+    <circle cx="70" cy="84" r="34" fill="#a8743a"/>
+    <circle cx="72" cy="90" r="24" fill="#f4e2c0"/>
+    <circle cx="70" cy="54" r="26" fill="#a8743a"/>
+    <ellipse cx="60" cy="52" rx="7" ry="8" fill="#fff"/><ellipse cx="82" cy="52" rx="7" ry="8" fill="#fff"/>
+    <circle cx="61" cy="53" r="3.6" fill="#1b1530" stroke="none"/><circle cx="83" cy="53" r="3.6" fill="#1b1530" stroke="none"/>
+    <path d="M70 58 L82 64 L70 68Z" fill="#ffc23a"/>
+    <path d="M44 94 Q70 108 96 94" fill="none" stroke="#1aa596" stroke-width="7"/>
+  </g>
+</svg>

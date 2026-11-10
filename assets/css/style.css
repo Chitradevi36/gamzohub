@@ -201,25 +201,106 @@ a:hover { text-decoration: underline; }
   .nav-mobile { display: none !important; }
 }
 
-/* ---------- Hero ---------- */
-.hero {
-  background: radial-gradient(1200px 400px at 20% -10%, rgba(232, 169, 59, 0.25), transparent 60%),
-    linear-gradient(160deg, var(--brand), var(--brand-dark));
+/* ---------- Game banner (home page hero carousel) ---------- */
+.game-banner {
+  position: relative;
+  background: var(--brand-dark);
+}
+.banner-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.banner-track::-webkit-scrollbar { display: none; }
+
+.banner-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  position: relative;
+  min-height: clamp(360px, 52vw, 500px);
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--brand-dark);
+}
+.banner-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* Dark enough through ~55% of the width that no bright art element (even
+     pure white) can "ghost" through behind the text column. */
+  background: linear-gradient(100deg, rgba(10, 5, 22, 0.97) 0%, rgba(10, 5, 22, 0.94) 40%, rgba(10, 5, 22, 0.55) 58%, rgba(10, 5, 22, 0.1) 78%, transparent 92%),
+    linear-gradient(to top, rgba(8, 4, 18, 0.65), transparent 55%);
+}
+.banner-content { position: relative; width: 100%; padding: 32px 0 36px; color: #fff; }
+.banner-badge {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #2a1a03;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+.banner-title { font-size: clamp(1.9rem, 5vw, 3.2rem); line-height: 1.08; margin: 0 0 4px; }
+.banner-tagline { font-size: 1.05rem; font-weight: 700; color: var(--color-accent); margin: 0 0 10px; }
+.banner-story { font-size: 1rem; color: #ebe4fb; max-width: 56ch; margin: 0 0 14px; line-height: 1.5; }
+.banner-meta { font-size: 0.82rem; color: #c6b9e8; margin: 0 0 18px; }
+.banner-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.banner-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(14, 7, 28, 0.55);
   color: #fff;
-  padding: 44px 0 56px;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.hero h1 {
-  font-size: clamp(1.7rem, 5vw, 2.7rem);
-  margin: 0 0 10px;
-  line-height: 1.15;
+.banner-arrow:hover { background: rgba(14, 7, 28, 0.8); }
+.banner-arrow.prev { left: 14px; }
+.banner-arrow.next { right: 14px; }
+@media (max-width: 700px) { .banner-arrow { display: none; } }
+
+.banner-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
-.hero p {
-  color: #e7defa;
-  font-size: 1.05rem;
-  max-width: 55ch;
-  margin: 0 0 20px;
+.banner-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  padding: 0;
 }
-.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.banner-dot.is-active { background: var(--color-accent); width: 22px; border-radius: 5px; }
+@media (prefers-reduced-motion: reduce) {
+  .banner-track { scroll-behavior: auto; }
+  .banner-dot, .banner-dot.is-active { transition: none; }
+}
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -504,6 +585,57 @@ kbd {
   margin-bottom: 18px;
 }
 .instructions-card h2, .info-card h2 { margin-top: 0; font-size: 1.1rem; }
+
+/* ---------- Cast + "why play" sections (play pages) ---------- */
+.section-band {
+  background: var(--color-surface-2);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  margin-bottom: 18px;
+}
+.section-band h2 { margin: 0 0 4px; font-size: 1.3rem; }
+.section-band .section-lede { margin: 0 0 20px; color: var(--color-text-muted); max-width: 62ch; }
+
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.cast-card {
+  display: flex;
+  gap: 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.cast-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.cast-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  flex: none;
+  border: 2px solid var(--color-border);
+}
+.cast-card h3 { margin: 0 0 2px; font-size: 1rem; }
+.cast-card .cast-role { display: block; font-size: 0.76rem; font-weight: 700; color: var(--color-accent-dark); text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 6px; }
+.cast-card p { margin: 0; font-size: 0.86rem; color: var(--color-text-muted); line-height: 1.4; }
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.benefit-tile {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+.benefit-tile .benefit-icon { font-size: 1.5rem; display: block; margin-bottom: 8px; }
+.benefit-tile h3 { margin: 0 0 4px; font-size: 0.95rem; }
+.benefit-tile p { margin: 0; font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.4; }
 
 .related-strip {
   display: flex;

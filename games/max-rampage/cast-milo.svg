@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-label="Milo, round glasses, worried smile, holding a first-aid kit">
+  <circle cx="70" cy="70" r="70" fill="#7bd389"/>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-width="3">
+    <path d="M38 118 Q70 102 102 118 L102 140 L38 140Z" fill="#43a047"/>
+    <path d="M30 42 Q46 20 70 26 Q94 20 110 42 Q96 36 70 38 Q44 36 30 42Z" fill="#7a4a24"/>
+    <circle cx="70" cy="76" r="33" fill="#f6c08f"/>
+    <circle cx="58" cy="80" r="10" fill="none" stroke-width="3"/><circle cx="82" cy="80" r="10" fill="none" stroke-width="3"/>
+    <path d="M68 80 L72 80" stroke-width="3"/>
+    <circle cx="58" cy="80" r="2.6" fill="#1b1530" stroke="none"/><circle cx="82" cy="80" r="2.6" fill="#1b1530" stroke="none"/>
+    <path d="M60 98 Q70 92 80 98" fill="none" stroke-width="3"/>
+    <rect x="96" y="100" width="20" height="16" rx="2" fill="#fff" stroke-width="2.5"/>
+    <path d="M103 103 L103 113 M98 108 L108 108" stroke="#e8322f" stroke-width="2.5"/>
+  </g>
+</svg>

@@ -9,7 +9,12 @@ window.GAMZOHUB_GAMES = [
       "Flip, spin and grab on skateboards, bikes and go-karts across 9 suburban stunt episodes, then beat Chad Stuntly.",
     thumbnail: "/games/max-rampage/thumbnail.svg",
     status: "live",
-    tags: ["new"]
+    tags: ["new"],
+    banner: {
+      art: "/games/max-rampage/banner.svg",
+      tagline: "Suburban Stunt Legend",
+      story: "Dad's car, Granny's lawn, a skate park rival and a cop who really wants Max to slow down. Flip, spin and grab through 9 chaos-packed episodes to become the Suburban Stunt Legend."
+    }
   },
   {
     slug: "alauddin",
@@ -19,7 +24,12 @@ window.GAMZOHUB_GAMES = [
       "Run the rooftops as Alauddin the thief, free Nazim the djinn and defeat the Serpent Vizier across 10 Arabian Nights levels.",
     thumbnail: "/games/alauddin/thumbnail.svg",
     status: "live", // live | soon
-    tags: ["trending"]
+    tags: ["trending"],
+    banner: {
+      art: "/games/alauddin/banner.svg",
+      tagline: "Alauddin and the Brass Lamp",
+      story: "A rooftop thief, a loud falcon chick, and a thousand-year-old djinn walk into a cavern. Run the rooftops of Qasr al-Nur, outwit a scheming Vizier, and free the city across 10 Arabian Nights levels."
+    }
   },
   {
     slug: "dino-dash-delivery",

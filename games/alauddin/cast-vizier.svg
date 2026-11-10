@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-label="Vizier Malik Shahr, a red turban jewel, hooded robe, thin scheming smile">
+  <circle cx="70" cy="70" r="70" fill="#4a0e18"/>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-width="3">
+    <path d="M30 128 Q70 98 110 128 L110 140 L30 140Z" fill="#a89070"/>
+    <circle cx="70" cy="76" r="32" fill="#a89070"/>
+    <path d="M28 70 Q24 28 70 26 Q116 28 112 70 Q98 52 70 56 Q42 52 28 70Z" fill="#efe6d4"/>
+    <circle cx="70" cy="40" r="7" fill="#c8202a"/>
+    <ellipse cx="59" cy="80" rx="5" ry="6" fill="#1b1530" stroke="none"/><ellipse cx="81" cy="80" rx="5" ry="6" fill="#1b1530" stroke="none"/>
+    <path d="M52 74 L66 74 M74 74 L88 74" stroke-width="3"/>
+    <path d="M58 96 Q70 90 82 94" fill="none" stroke-width="3"/>
+  </g>
+</svg>

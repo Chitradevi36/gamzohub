@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" role="img" aria-label="Max mid-flip above a mega ramp at sunset, with Milo cheering and Chad Stuntly watching from a rival ramp">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fc3ff"/><stop offset="55%" stop-color="#8fe0ff"/><stop offset="1" stop-color="#ffe3a8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff7cf" stop-opacity=".9"/><stop offset="1" stop-color="#fff7cf" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g stroke="#1b1530" stroke-linejoin="round" stroke-linecap="round">
+    <rect width="1600" height="640" fill="url(#sky)" stroke="none"/>
+    <circle cx="1260" cy="150" r="150" fill="url(#sun)" stroke="none"/>
+    <circle cx="1260" cy="150" r="58" fill="#ffe9a0" stroke-width="4"/>
+    <g fill="#fff" stroke-width="3" opacity=".95">
+      <ellipse cx="180" cy="90" rx="70" ry="30"/><ellipse cx="240" cy="78" rx="50" ry="24"/>
+      <ellipse cx="760" cy="60" rx="60" ry="26"/><ellipse cx="820" cy="50" rx="42" ry="20"/>
+      <ellipse cx="1460" cy="320" rx="60" ry="24"/>
+    </g>
+    <path d="M0 470 Q250 410 500 460 T1000 450 T1600 460 V640 H0Z" fill="#8fd16a" stroke="none"/>
+    <path d="M0 470 Q250 410 500 460 T1000 450 T1600 460" fill="none" stroke="#5e9a34" stroke-width="4"/>
+    <g>
+      <rect x="40" y="340" width="150" height="150" fill="#ffd8a8" stroke-width="3"/><path d="M28 340 L115 280 L202 340Z" fill="#d9534f" stroke-width="3"/>
+      <rect x="1400" y="300" width="170" height="190" fill="#bde0fe" stroke-width="3"/><path d="M1386 300 L1485 232 L1584 300Z" fill="#5b6cff" stroke-width="3"/>
+      <rect x="1180" y="400" width="120" height="90" fill="#fff3b0" stroke-width="3"/><path d="M1170 400 L1240 362 L1310 400Z" fill="#8d5524" stroke-width="3"/>
+      <rect x="-20" y="420" width="110" height="70" fill="#a8e6cf" stroke-width="3"/>
+    </g>
+    <!-- Chad's rival ramp, background left -->
+    <g transform="translate(130 470)">
+      <path d="M0 0 L120 0 L120 -70 Q60 -90 0 0Z" fill="#c98a4b" stroke-width="3"/>
+      <g transform="translate(10 -78) scale(0.72)">
+        <rect x="-24" y="-10" width="10" height="4" fill="#9aa3ad" stroke-width="2"/><rect x="14" y="-10" width="10" height="4" fill="#9aa3ad" stroke-width="2"/>
+        <circle cx="-19" cy="-5" r="5.5" fill="#7b3fe4" stroke-width="2.5"/><circle cx="19" cy="-5" r="5.5" fill="#7b3fe4" stroke-width="2.5"/>
+        <path d="M-38 -20 Q-34 -12 -26 -12 L26 -12 Q34 -12 38 -20" fill="#c0c8d6" stroke-width="2.5"/>
+        <rect x="-16" y="-54" width="34" height="28" fill="#ffd75e" stroke-width="2.5"/>
+        <rect x="-5" y="-50" width="16" height="7" fill="#14141f" stroke-width="2"/>
+      </g>
+      <text x="60" y="-100" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="20" fill="#fff" stroke="#1b1530" stroke-width="3" paint-order="stroke">CHAD</text>
+    </g>
+    <!-- Main mega ramp -->
+    <path d="M640 470 L1020 470 L1020 230 Q820 160 640 470Z" fill="#e0a35a" stroke-width="4"/>
+    <g stroke="none"><path d="M680 470 L1000 470 L1000 260 Q830 210 680 470Z" fill="#b97a3a" opacity=".35"/></g>
+    <path d="M1020 230 Q820 160 640 470" fill="none" stroke="#f7cf8e" stroke-width="5"/>
+    <!-- Milo cheering -->
+    <g transform="translate(300 420) scale(1.3)">
+      <rect x="-9" y="-40" width="8" height="40" fill="#8d6e63" stroke-width="2.5"/><rect x="5" y="-40" width="8" height="40" fill="#8d6e63" stroke-width="2.5"/>
+      <rect x="-16" y="-84" width="32" height="46" rx="10" fill="#43a047" stroke-width="3"/>
+      <path d="M-14 -70 L-26 -92 L-20 -98 L-8 -78Z" fill="#43a047" stroke-width="2.5"/>
+      <path d="M14 -70 L26 -92 L20 -98 L8 -78Z" fill="#43a047" stroke-width="2.5"/>
+      <circle cx="-24" cy="-96" r="6" fill="#f6c08f" stroke-width="2.5"/><circle cx="24" cy="-96" r="6" fill="#f6c08f" stroke-width="2.5"/>
+      <circle cx="0" cy="-104" r="22" fill="#f6c08f" stroke-width="3"/>
+      <circle cx="-8" cy="-106" r="6" fill="#fff" stroke-width="2"/><circle cx="8" cy="-106" r="6" fill="#fff" stroke-width="2"/>
+      <circle cx="-6" cy="-105" r="2.5" fill="#1b1530" stroke="none"/><circle cx="10" cy="-105" r="2.5" fill="#1b1530" stroke="none"/>
+      <path d="M-9 -95 Q0 -88 9 -95" fill="none" stroke-width="2.5"/>
+    </g>
+    <!-- Max mid-flip, hero moment -->
+    <g transform="translate(900 210) rotate(-18) scale(2.0)">
+      <path d="M-30 6 Q-27 12 -21 12 L21 12 Q27 12 30 6 L31 10 Q27 16 21 16 L-21 16 Q-27 16 -31 10Z" fill="#c8813a" stroke-width="2.2"/>
+      <circle cx="-15" cy="20" r="4.5" fill="#ff3860" stroke-width="2.2"/><circle cx="15" cy="20" r="4.5" fill="#ff3860" stroke-width="2.2"/>
+      <path d="M-10 6 L-12 -10 L-2 -24" fill="none" stroke-width="11"/><path d="M-10 6 L-12 -10 L-2 -24" fill="none" stroke="#178c82" stroke-width="6.5"/>
+      <path d="M10 6 L12 -10 L-2 -24" fill="none" stroke-width="11"/><path d="M10 6 L12 -10 L-2 -24" fill="none" stroke="#1fb5a8" stroke-width="6.5"/>
+      <path d="M-2 -24 L2 -46" fill="none" stroke-width="18"/><path d="M-2 -24 L2 -46" fill="none" stroke="#1fb5a8" stroke-width="13.5"/>
+      <path d="M-2 -46 Q-18 -48 -32 -42 L-30 -36 Q-16 -40 -2 -40Z" fill="#ffd23f" stroke-width="2"/>
+      <path d="M2 -42 L22 -56" fill="none" stroke-width="9"/><path d="M2 -42 L22 -56" fill="none" stroke="#1fb5a8" stroke-width="4.5"/>
+      <circle cx="23" cy="-57" r="3.6" fill="#f5f5f5" stroke-width="2"/>
+      <path d="M0 -42 L-20 -54" fill="none" stroke-width="9"/><path d="M0 -42 L-20 -54" fill="none" stroke="#178c82" stroke-width="4.5"/>
+      <circle cx="-21" cy="-55" r="3.6" fill="#f5f5f5" stroke-width="2"/>
+      <circle cx="5" cy="-62" r="11" fill="#ffcf9e" stroke-width="2.6"/>
+      <path d="M-9 -63 A14 14 0 0 1 19 -63Z" fill="#ff7a1a" stroke-width="2.6"/>
+      <path d="M0 -76 L5 -76 L3 -71 L7 -71 L0 -64 L2 -69 L-2 -69Z" fill="#ffe14d" stroke-width="1.3"/>
+      <ellipse cx="11" cy="-60" rx="2.8" ry="3.2" fill="#fff" stroke-width="1.8"/>
+      <path d="M5 -55 Q11 -48 16 -56Z" fill="#fff" stroke-width="1.8"/>
+    </g>
+    <g fill="#ffe14d" stroke-width="2" opacity=".95">
+      <path d="M960 160 l5 10 11 1 -8 8 2 11 -10 -6 -10 6 2 -11 -8 -8 11 -1z"/>
+      <path d="M1050 240 l4 8 8 1 -6 6 1 8 -7 -4 -7 4 1 -8 -6 -6 8 -1z"/>
+      <path d="M830 150 l3 6 6 1 -4 4 1 6 -6 -3 -5 3 1 -6 -5 -4 6 -1z"/>
+    </g>
+    <path d="M1030 260 Q1090 230 1150 250" fill="none" stroke="#fff" stroke-width="5" stroke-dasharray="2 14" opacity=".8"/>
+    <!-- CTA-safe gradient handled in CSS, not baked in here -->
+  </g>
+</svg>
